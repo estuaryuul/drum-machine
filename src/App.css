@@ -1,0 +1,49 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #058ed9;
+  display: flex;
+  width: 350px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.drum-pads {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 230px;
+  height: 230px;
+  gap: 20px;
+}
+
+.drum-pads > .drum-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #483d3f;
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  border-radius: 8px;
+  font-size: 1, 5rem;
+  font-weight: 800;
+  color: #058ed9;
+}
+.panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#display {
+  background-color: #f4ebd9;
+  border: 5px solid #483d3f;
+  border-radius: 16px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
